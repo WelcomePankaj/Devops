@@ -8,6 +8,10 @@ public with sharing class ContactController {
             FROM Contact
             WITH SECURITY_ENFORCED
             LIMIT 10
-        ];
+        ]; 
+    }
+
+    public integer add(integer i, integer j){
+            retunr i+j;
     }
 }
