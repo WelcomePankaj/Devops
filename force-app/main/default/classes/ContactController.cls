@@ -15,7 +15,7 @@ public with sharing class ContactController {
             retunr i+j;
     }
     public integer substract(integer i, integer j){
-        integer ij=10+1;    
+        integer i+1;
         return j-i ;   
     }
 }
