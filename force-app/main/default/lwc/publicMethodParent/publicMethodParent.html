@@ -1,0 +1,7 @@
+<template>
+    <lightning-card  title="Selected">
+        <lightning-input  onchange={handleInputChange}  type="text" label="Enter some text"></lightning-input>
+        <lightning-button label="Select" onclick={callMethodonChild}></lightning-button>
+        <c-public-method-child></c-public-method-child>
+    </lightning-card>
+</template>

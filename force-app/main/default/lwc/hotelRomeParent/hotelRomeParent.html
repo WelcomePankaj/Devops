@@ -1,0 +1,28 @@
+<template>
+    <lightning-card>
+        Hello :  {selectedRoomDetails}
+        <div class="slds-p-around_medium lgc-bg">
+           <template  for:each={HotelRoomDetails} for:item="rooms">
+            <!--<div class="slds-p-around_medium  lgc-bg-inverse" key={rooms.roomNo}>
+                <lightning-tile label={rooms.roomNo} href="/path/to/somewhere">
+                    <p class="slds-truncate" title={rooms.roomCapacity}>{rooms.roomCapacity}</p>
+                </lightning-tile>
+            </div>-->
+            <div key={rooms.roomNo} class="lgc-bg-inversenew">
+                <!--<c-holer-room-child  room-detail={rooms} onchildroomtilechicked={handlechildemethod}></c-holer-room-child>-->
+                <c-holer-room-child  room-detail={rooms} ></c-holer-room-child>
+            </div>
+            
+           </template >  
+           
+        </div>
+    
+    </lightning-card>
+
+     <lightning-card>
+         <div>
+            <lightning-button label="Neutral" title="Non-primary action" onclick={handleClick} class="slds-m-left_x-small"></lightning-button>
+         </div>
+     </lightning-card>
+   
+</template>

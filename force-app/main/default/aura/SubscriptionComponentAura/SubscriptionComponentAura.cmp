@@ -1,0 +1,5 @@
+<aura:component implements="flexipage:availableForAllPageTypes">
+    <lightning:messageChannel type="DataMessageChanel__c" aura:id="messageChannel" onMessage="{!c.messageHandler}"
+    scope="APPLICATION" />
+    <div>Message Chanel</div>
+</aura:component>
