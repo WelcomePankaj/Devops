@@ -17,6 +17,10 @@ public with sharing class ContactController {
     public integer substract(integer i, integer j){
         integer i+1;
         integer j+2;
-        return j-i ;   
+        return j-i ;    
+    }
+
+    public integer division(integer i, integer j){
+        return j/i; 
     }
 }
