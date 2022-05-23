@@ -12,7 +12,6 @@ public with sharing class ContactController {
     }
 
     public integer add(integer i,integer b){
-        integer k = 1+2+3+4;
         return i+j;
     }
 }
