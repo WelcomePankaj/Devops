@@ -8,19 +8,6 @@ public with sharing class ContactController {
             FROM Contact
             WITH SECURITY_ENFORCED
             LIMIT 10
-        ]; 
-    }
-
-    public integer add(integer i, integer j){
-            retunr i+j;
-    }
-    public integer substract(integer i, integer j){
-        integer i+1;
-        integer j+2;
-        return j-i ;    
-    }
-
-    public integer division(integer i, integer j){
-        return j/i; 
+        ];
     }
 }
