@@ -10,4 +10,8 @@ public with sharing class ContactController {
             LIMIT 10
         ];
     }
+
+    public integer add(integer i,integer b){
+        return i+j;
+    }
 }
